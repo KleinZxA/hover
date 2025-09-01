@@ -29,9 +29,16 @@
     padding-bottom: 5%;    
     box-shadow: 0px 11px 15px -3px rgba(0,0,0,0.1);
 }
+.formrrr:hover{
+    box-shadow: 0px 11px 15px -3px rgba(0,0,0,0.5);
+    transition: all 0.4s ease;
+}
 h1{
     align-items: center; 
     padding-bottom: 5%;
+}
+h1:hover{
+    box-shadow: 10px 11px 4px -6px rgba(0,0,0,0.1);
 }
 h2{
     align-items: center;
@@ -68,12 +75,14 @@ input:active {
 .boxx {
     height: 50px;
     width: 100%; 
-    border: solid rgb(138, 138, 138) 2px;
+    border: solid rgba(138, 138, 138,0.3) 2px;
+    border-width: 1px;
     border-radius: 3px;
     transition: all 0.4s ease; /* smooth animation */
+    box-shadow: 10px 11px 4px -6px rgba(0,0,0,0.1); 
 }
 .button1:hover{
-    border-color:#000;
+    border-color:rgba(0,0,0,0.1);
     background-color: #abe7ad;
     transition: all 0.4s ease;
 }
