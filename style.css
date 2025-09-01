@@ -1,105 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Share+Tech+Mono&display=swap');
+
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #ffffff;
+
 }
-section{
+
+.nice{
     height: 100vh;
     display:flex;
     justify-content: space-around;
     align-items: center;
+    padding:5%;
 
 }
-.box{
-    height: 50%;
-    width: 30%; 
-    border: solid black  2px;
-}
-.box1:hover{
-    background-color: #bf212f;
-}
-.box2:focus{
-    background-color: #f9a73e;
-}
-.box3:active{
-    background-color: #27b376;
-}
 
-.btn{
-    height: 500px;
-    width: 500px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: xx-large;
-}
-.btn1:hover{
-    background-color: #27b376;
-    /* color: white;
-    border: none; */
-}
-.btn2:focus{
-    background-color: #f9a73e;
-    /* color: white;
-    border: none; */
-}
-.btn3:active{
-    background-color: #bf212f;
-    /* color: white;
-    border: none; */
-}
 
+.formrrr{
+    border-color: rgb(141, 141, 141);
+    border-style: transparent;
+    border-radius: 15px;
+    border-width: 5px;
+    padding: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%;    
+    box-shadow: 0px 11px 15px -3px rgba(0,0,0,0.1);
+}
+h1{
+    align-items: center; 
+    padding-bottom: 5%;
+}
+h2{
+    align-items: center;
+    padding-bottom: 7%;
+}
 input {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 2px solid #ccc;
-      border-radius: 5px;
-      transition: 0.3s;
-    }
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 2px solid #ccc;
+        border-radius: 3px;
+        transition: 0.3s;
+        width: 100%;
+}
 
     /* HOVER: when the mouse is over the input */
-    input:hover {
-      border-color: #007BFF;
-    }
+input:hover {
+    border-color: #3a3a3a;
+    background: #cecece;
+ }
 
     /* FOCUS: when you click inside the input */
-    input:focus {
-      border-color: #28a745;
-      outline: none;
-      background: #e9fce9;
-    }
+input:focus {
+    border-color: #3a3a3a;
+    outline: none;
+    background: #eeeeee;
+}
 
     /* ACTIVE: when you are pressing the mouse button */
-    input:active {
-      border-color: #dc3545;
-      background: #ffecec;
-    }
+input:active {
+    border-color: #a9a9a9;
+    background: #cecece;
+}
 
 .boxx {
-    height: 100px;
-    width: 100px; 
-    border: solid black 2px;
+    height: 50px;
+    width: 100%; 
+    border: solid rgb(138, 138, 138) 2px;
+    border-radius: 3px;
     transition: all 0.4s ease; /* smooth animation */
 }
-
-/* Hover: Circle + Purple border */
-.box4:hover {
-    border-color: purple;
-    border-width: 4px;
-    border-radius: 50%; 
+.button1:hover{
+    border-color:#000;
+    background-color: #abe7ad;
+    transition: all 0.4s ease;
 }
 
-/* Focus: Rounded rectangle + Orange border */
-.box5:focus {
-    border-color: orange;
-    border-width: 4px;
-    border-radius: 20px; 
-    outline: none; /* remove default focus outline */
-}
+.button1:active{
+    background-color: #446f45;
 
-/* Active: Diamond shape + Teal border */
-.box6:active {
-    border-color: teal;
-    border-width: 4px;
-    transform: rotate(45deg); /* diamond shape */
+
+    /* color: white;
+    border: none; */
 }
