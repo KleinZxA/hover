@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Share+Tech+Mono&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+
+}
+
+.nice{
+    height: 100vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:5%;
+
+}
+
+
+.formrrr{
+    border-color: rgb(141, 141, 141);
+    border-style: transparent;
+    border-radius: 15px;
+    border-width: 5px;
+    padding: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%;    
+    box-shadow: 0px 11px 15px -3px rgba(0,0,0,0.1);
+}
+h1{
+    align-items: center; 
+    padding-bottom: 5%;
+}
+h2{
+    align-items: center;
+    padding-bottom: 7%;
+}
+input {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 2px solid #ccc;
+        border-radius: 3px;
+        transition: 0.3s;
+        width: 100%;
+}
+
+    /* HOVER: when the mouse is over the input */
+input:hover {
+    border-color: #3a3a3a;
+    background: #cecece;
+ }
+
+    /* FOCUS: when you click inside the input */
+input:focus {
+    border-color: #3a3a3a;
+    outline: none;
+    background: #eeeeee;
+}
+
+    /* ACTIVE: when you are pressing the mouse button */
+input:active {
+    border-color: #a9a9a9;
+    background: #cecece;
+}
+
+.boxx {
+    height: 50px;
+    width: 100%; 
+    border: solid rgb(138, 138, 138) 2px;
+    border-radius: 3px;
+    transition: all 0.4s ease; /* smooth animation */
+}
+.button1:hover{
+    border-color:#000;
+    background-color: #abe7ad;
+    transition: all 0.4s ease;
+}
+
+.button1:active{
+    background-color: #446f45;
+
+
+    /* color: white;
+    border: none; */
+}
